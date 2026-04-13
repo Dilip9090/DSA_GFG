@@ -1,10 +1,24 @@
 class Solution:
     def isPalindrome(self, s):
-        #Easy Way  
-        b = s[::-1]
-        if s == b:
-            return True
+        #Using Recursion
+        def check(left, right):
+            if left >= right:
+                return True
+            
+            if s[left] != s[right]:
+                return False
+            
+            return check(left + 1, right - 1)
         
+        return check(0, len(s) - 1)
+        
+        
+        
+        #Easy Way  
+        # b = s[::-1]
+        # if s == b:
+        #     return True
+        # code here
         
         
         #Complex Way Using Pointer
