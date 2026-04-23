@@ -1,17 +1,15 @@
 class Solution: 
     def selectionSort(self, arr):
-        lenth = len(arr)
+        #code here
         
-        for i in range(lenth):
-            min = i
+        n = len(arr)
+        for i in range(n):
+            mini = i
             
-            
-            for k in range(i + 1, lenth):
-                if arr[k] < arr[min]:
-                    min = k
-                    
-            arr[i], arr[min] = arr[min], arr[i]
+            for k in range (i+1,n):
+                if arr[k] < arr[mini]:
+                    mini = k
+            arr[i], arr[mini] = arr[mini], arr[i]
             
         return arr    
-                    
-        #code here
+                
