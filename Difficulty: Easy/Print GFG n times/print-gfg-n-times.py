@@ -2,9 +2,23 @@
 
 class Solution:
     def printGfg(self, n):
-        # print(GFG)
         count = 0
-        while count < n:
+        if n <= 0:
+            return
+        else:
             print("GFG",end=" ")
-            count += 1
-        # Code here
+            self.printGfg(n-1)
+        
+        
+        
+        
+        
+        
+        
+        
+        # # print(GFG)
+        # count = 0
+        # while count < n:
+        #     print("GFG",end=" ")
+        #     count += 1
+        # # Code here
