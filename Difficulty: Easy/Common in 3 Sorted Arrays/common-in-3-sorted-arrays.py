@@ -4,18 +4,14 @@ class Solution:
         result = []
         
         while i < len(a) and j < len(b) and k < len(c):
-            
-            # If all are equal → common element
             if a[i] == b[j] == c[k]:
-                # Avoid duplicates in result
                 if not result or result[-1] != a[i]:
                     result.append(a[i])
                 
                 i += 1
                 j += 1
                 k += 1
-            
-            # Move the smallest pointer
+                 
             elif a[i] < b[j]:
                 i += 1
             elif b[j] < c[k]:
