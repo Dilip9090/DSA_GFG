@@ -1,8 +1,7 @@
 class Solution:
     def quickSort(self, arr, low, high):
         #code here 
-        if low < high:
-            
+        if low < high :
             pi = self.partition(arr,low,high)
             self.quickSort(arr,low,pi-1)
             self.quickSort(arr,pi+1,high)
@@ -18,7 +17,7 @@ class Solution:
                 i += 1
             while i <= j and arr[j] > povit:
                 j -= 1
-            if i <= j:
+            if i < j:
                 arr[i], arr[j] = arr[j], arr[i]
             else:
                 break
