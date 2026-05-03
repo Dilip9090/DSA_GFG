@@ -6,7 +6,7 @@
 <p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
 <pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input:</strong> </span><span style="font-size: 18px;">n =<strong> </strong>2</span>
 <span style="font-size: 18px;"><strong><span style="font-size: 18px;">Output:</span> </strong></span><span style="font-size: 18px;">2</span>
-<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Explanation:</span> </strong></span><span style="font-size: 14pt;">2 is represented as "10" in binary. It has only one set bit, which is at position 2.</span><span style="font-size: 18px;"><br></span></pre>
+<span style="font-size: 18px;"><strong><span style="font-size: 18px;">Explanation:</span> </strong></span><span style="font-size: 14pt;">2 is represented as "10" in binary. It has only one set bit, which is at position 2.</span><span style="font-size: 18px;"><br></span></pre> 
 <pre><span style="font-size: 18px;"><strong style="font-size: 18px;">Input:</strong><strong> </strong></span><span style="font-size: 18px;">n =<strong> </strong>5</span>
 <span style="font-size: 18px;"><strong><span style="font-size: 18px;">Output:</span> </strong></span><span style="font-size: 18px;">-1</span>
 <span style="font-size: 18px;"><strong><span style="font-size: 18px;">Explanation:</span> </strong></span><span style="font-size: 14pt;">5 is represented as "101" in binary. It has two set bits; therefore, the output is -1.
