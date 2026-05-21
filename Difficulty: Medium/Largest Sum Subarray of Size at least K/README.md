@@ -5,7 +5,7 @@
 a[] = {1, -2, 2, -3}
 k = 2
 <strong>Output : </strong>
-1
+1 
 <strong>Explanation :</strong>
 The sub-array of length at-least 2<br></span><span style="font-size: 18px;">that produces greatest sum is {1, -2, 2}</span></pre>
 <div><span style="font-size: 18px;"><strong>Example 2:</strong></span></div>
