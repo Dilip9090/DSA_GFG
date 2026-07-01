@@ -3,10 +3,9 @@ class Solution:
         # code here
         n = len(arr)
         
-        for i in range (1,n):
-            if arr[i] >= arr[i-1]:
-                # return True 
-                continue
+        for i in range(1, n):
+            if arr[i] >= arr[i - 1]:
+                pass
             else:
                 return False
-        return True        
+        return True
