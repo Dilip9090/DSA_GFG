@@ -1,14 +1,13 @@
 class Solution:
     def getSecondLargest(self, arr):
         # code here
-        
-        large = -1
-        second = -1
-        
-        for nums in arr:
-            if nums > large:
-                second = large
-                large = nums
-            elif large > nums > second:
-                second = nums
-        return second        
+        arr.sort()
+        n = len(arr)
+
+        flarge = arr[n - 1]
+
+        for i in range(n - 2, -1, -1):
+            if arr[i] != flarge:
+                return arr[i]
+
+        return -1       
