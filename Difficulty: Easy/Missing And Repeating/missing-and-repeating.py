@@ -18,3 +18,5 @@ class Solution:
         missing = repeating - diff
 
         return [repeating, missing]
+
+
