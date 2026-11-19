@@ -1,8 +1,8 @@
 class Solution:
     def largest(self, arr):
         # code here
-        maz = 0
-        for i in arr:
-            if i > maz :
-                maz = i
-        return maz        
+        arr.sort()
+        return (arr[len(arr)-1])
+ 
+        # return (max(arr))
+        
